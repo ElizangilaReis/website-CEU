@@ -1,14 +1,4 @@
-img/**
-* Template Name: Moderna
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+img
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -67,6 +57,30 @@ h6,
   opacity: 1;
 }
 
+/** TODO: por organizar */
+.btn-blue-rounded {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  animation-delay: 0.8s;
+  background: #00A4DC;
+  border: 2px solid #00A4DC;
+}
+
+.btn-blue-rounded:hover{
+  background-color: #00217E;
+  color: #fff;
+}
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -83,7 +97,7 @@ h6,
 }
 
 #header.header-scrolled {
-  background: linear-gradient(180deg, #0092DC 0%, #D7F5FF 100%);
+  background: #00217E;
   height: 60px;
 }
 
@@ -348,7 +362,7 @@ h6,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(180deg, #0092DC 0%, #D7F5FF 100%), url("../img/web-ceu/compress-img/BACKGROUND-1.jpg") center top no-repeat;
+  background: linear-gradient(180deg, #0092DC 0%, #D7F5FF 100%), url("../img/compress-img/BACKGROUND-1.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -711,6 +725,7 @@ swiper-slide img {
 .services .icon i {
   font-size: 36px;
   line-height: 1;
+  color: #00217E;
 }
 
 .services .title {
@@ -729,42 +744,11 @@ swiper-slide img {
   margin-bottom: 0;
 }
 
-.services .icon-box-pink .icon {
-  background: #fceef3;
-}
-
-
-.services .icon-box-pink:hover {
-  border-color: #00217E;
-}
-
-.services .icon-box-cyan .icon {
-  background: #e6fdfc;
-}
-
-.services .icon-box-cyan:hover {
-  border-color: #00217E;
-}
-
-.services .icon-box-green .icon {
-  background: #eafde7;
-}
-
-.services .icon-box-green:hover {
-  border-color: #00217E;
-}
-
-.services .icon-box-blue .icon {
-  background: #e1eeff;
-}
 
 .services .icon-box-blue:hover {
   border-color: #00217E;
 }
 
-.img-card-services{
-  width: 40px;
-}
 
 
 /*--------------------------------------------------------------
@@ -792,12 +776,12 @@ swiper-slide img {
 }
 
 .why-us .icon-box .icon i {
-  color: #68A4C4;
+  color: #00217E;
   font-size: 32px;
 }
 
 .why-us .icon-box:hover .icon {
-  background: #68A4C4;
+  background: #00217E;
 }
 
 .why-us .icon-box:hover .icon i {
@@ -818,7 +802,7 @@ swiper-slide img {
 }
 
 .why-us .icon-box .title a:hover {
-  color: #68A4C4;
+  color: #00217E;
 }
 
 .why-us .icon-box .description {
@@ -839,7 +823,7 @@ swiper-slide img {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#68A4C4 50%, rgba(104, 164, 196, 0.4) 52%);
+  background: radial-gradient(#00217E 50%, rgba(104, 164, 196, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -882,7 +866,7 @@ swiper-slide img {
 }
 
 .why-us .play-btn:hover::after {
-  border-left: 15px solid #68A4C4;
+  border-left: 15px solid #00217E;
   transform: scale(20);
 }
 
@@ -2344,3 +2328,4 @@ swiper-slide img {
 #footer .credits a {
   color: #a2cce3;
 }
+
