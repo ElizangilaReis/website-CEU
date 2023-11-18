@@ -113,6 +113,18 @@
     })
   }
 
+
+  
+  /**
+   * Preloader
+   */
+  let preloader = select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove()
+    });
+  }
+
   // Slider
 
   const swiper = new Swiper('.swiper', {
