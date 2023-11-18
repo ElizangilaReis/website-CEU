@@ -75,9 +75,11 @@ h6,
   border: 2px solid #00A4DC;
 }
 
-.btn-blue-rounded:hover{
-  background-color: #00217E;
-  color: #fff;
+/** TODO: por organizar */
+.btn-blue-rounded a{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 
@@ -127,6 +129,34 @@ h6,
   margin-top: 80px;
 }
 
+/**
+* Get Startet Button 
+*/
+.get-started-btn {
+  margin-left: 22px;
+  background: #000D32;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background: #00A4DC;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .get-started-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -173,7 +203,7 @@ h6,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #00217E;
+  color: #fff;
 }
 
 .navbar .dropdown ul {
@@ -199,7 +229,7 @@ h6,
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #00217E;
+  color: #fff;
 }
 
 .navbar .dropdown ul a i {
@@ -209,7 +239,7 @@ h6,
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #00217E;
+  color: #fff;
 }
 
 .navbar .dropdown:hover>ul {
@@ -288,7 +318,7 @@ h6,
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.65);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -297,13 +327,13 @@ h6,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #00217E;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #00217E;
+  color: #fff;
 }
 
 .navbar-mobile .getstarted,
