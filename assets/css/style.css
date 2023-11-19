@@ -155,7 +155,8 @@ h6,
 }
 
 .get-started-btn:hover {
-  color: #fff;
+  color: #000D32;
+
 }
 
 @media (max-width: 768px) {
